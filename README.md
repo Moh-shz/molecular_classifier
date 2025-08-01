@@ -26,8 +26,8 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 - Hyperparameter Tuning (`RandomizedSearchCV`)
 - Final pipeline using `sklearn.Pipeline`  
 
-The following diagram illustrates how each preprocessing step is consistently applied to both the training and testing datasets, ensuring no data leakage.
-<img src="./figures/Train:Test Data Processing Flow.png" alt="Train/Test Processing Flow" width="800"/>
+The following diagram illustrates how each preprocessing step is consistently applied to both the training and testing datasets, ensuring no data leakage.  
+<img src="./figures/Train:Test Data Processing Flow.png" alt="Train/Test Processing Flow" width="700"/>
 
 ---
 
@@ -39,8 +39,8 @@ The following diagram illustrates how each preprocessing step is consistently ap
 | F1 Score   | 0.663 |
 | MCC        | 0.213 |
 
-This pipeline reflects the complete sequence of transformations and modeling steps used in the final implementation.
-<img src="./figures/pipeline.png" alt="Pipeline Structure" width="400"/>
+This pipeline reflects the complete sequence of transformations and modeling steps used in the final implementation.  
+<img src="./figures/pipeline.png" alt="Pipeline Structure" width="300"/>
 
 ---
 
