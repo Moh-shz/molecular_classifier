@@ -27,7 +27,7 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 - Final pipeline using `sklearn.Pipeline`  
 
 The following diagram illustrates how each preprocessing step is consistently applied to both the training and testing datasets, ensuring no data leakage.  
-<img src="./figures/Train:Test Data Processing Flow.png" alt="Train/Test Processing Flow" width="700"/>
+<img src="./figures/Train:Test Data Processing Flow.png" alt="Train/Test Processing Flow" width="800"/>
 
 ---
 
