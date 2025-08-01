@@ -1,11 +1,11 @@
 # 🧬 Molecular Classification using Machine Learning
 
-This project focuses on building a complete machine learning pipeline to classify molecular data into binary outcomes (`Positive` / `Negative`).
+This project focuses on building a complete machine learning pipeline for predicting linear B-cell epitopes — short regions in protein sequences that are recognized by the immune system. Each sequence segment is classified as either `Positive` (epitope) or `Negative` (non-epitope) based on numerical features extracted from protein data.
 
 ---
 
 ## 🎯 Goal
-Develop a robust ML pipeline to classify records as `Positive` or `Negative` based on molecular and biochemical features.
+Develop a robust ML pipeline to classify records as `Positive` or `Negative` based on molecular and biochemical features, supporting research in immunology and vaccine design.
 
 ---
 
