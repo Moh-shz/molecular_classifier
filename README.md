@@ -23,7 +23,7 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 - Dimensionality Reduction (PCA)
 - Handling Class Imbalance (SMOTE)
 - Model Comparison (RF, SVM, XGBoost, etc.)
-- Hyperparameter Tuning (RandomizedSearchCV)
+- Hyperparameter Tuning (`RandomizedSearchCV`)
 - Final pipeline using `sklearn.Pipeline`
 
 ---
