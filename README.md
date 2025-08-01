@@ -12,7 +12,7 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 ## 📊 Dataset
 - **Rows**: 7,832 samples  
 - **Features**: 103 numerical descriptors of molecular sequences  
-- **Target**: `Class` (Positive / Negative)
+- **Target**: `Class` — binary label with values: `Positive` / `Negative`
 
 ---
 
