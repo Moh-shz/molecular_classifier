@@ -13,8 +13,8 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 - **Rows**: 7,832 samples  
 - **Features**: 103 numerical descriptors of molecular sequences  
 - **Target**: `Class` — binary label with values: `Positive` / `Negative`,  
-  where `Positive` label means the sequence is a B-cell epitope — a part of a protein that can trigger an immune response,
-  and `Negative` label means the sequence is not an epitope.
+  where `Positive` means the sequence is a B-cell epitope — a part of a protein that can trigger an immune response —
+  and `Negative` means it is not.
 
 ---
 
