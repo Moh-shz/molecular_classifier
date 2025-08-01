@@ -24,7 +24,10 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 - Handling Class Imbalance (SMOTE)
 - Model Comparison (RF, SVM, XGBoost, etc.)
 - Hyperparameter Tuning (`RandomizedSearchCV`)
-- Final pipeline using `sklearn.Pipeline`
+- Final pipeline using `sklearn.Pipeline`  
+
+The following diagram illustrates how each preprocessing step is consistently applied to both the training and testing datasets, ensuring no data leakage.
+<img src="./figures/Train:Test Data Processing Flow.png" alt="Train/Test Processing Flow" width="800"/>
 
 ---
 
@@ -36,6 +39,9 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 | F1 Score   | 0.663 |
 | MCC        | 0.213 |
 
+This pipeline reflects the complete sequence of transformations and modeling steps used in the final implementation.
+<img src="./figures/pipeline.png" alt="Pipeline Structure" width="400"/>
+
 ---
 
 ## 📁 Project Structure
@@ -44,6 +50,8 @@ Develop a robust ML pipeline to classify records as `Positive` or `Negative` bas
 /molecular_classifier/
 ├── data/
 │   └── df.csv
+├── figures/
+│   └── *.png
 ├── notebook/
 │   └── molecular_binary_classification.ipynb
 ├── report/
